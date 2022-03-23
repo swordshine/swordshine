@@ -1,0 +1,49 @@
+时间IO 磁盘IO 网络IO 自定义事件 --event loop触发
+1、当前进程空闲
+2、触发条件
+
+
+Object.prototype 产生的是{}
+Function.prototype 产生的是function(){}
+Function.prototype.isPrototypeOf(Object)
+
+Function=new Object();
+Function.prototype=new Object();
+
+Object.prototype.isPrototypeOf(Function);
+Object.prototype.isPrototypeOf(Function.prototype);
+
+Content-type ---http协议 MIME头  RFC文档
+实体头：Allow、Content-type、Content-base、Content-Encoding、Content-language
+Content-length
+type：plain、text、multipart、Application、Message、Image、Audio、Video
+
+supervisor  nodemon  pm2
+cls clear
+npm cnpm  
+cnpm install -g mysql
+npm install -g mysql
+
+
+node -v  查看node版本
+n  查看和切换node版本  
+
+全局安装  cnpm install -g 包名  
+本地安装  cnpm install 包名    //当前项目文件夹下  node_modules mysql文件见
+
+npm install -g cnpm  
+npm install -g n
+cnpm install -g n 
+cnpm install -g supervisor 
+
+1、写一个简单的webServer  讲解基础知识（mime 端口 type）、如何调试
+2、如何使用npm cnpm  进行本地安装 全局安装node的第三方包 Function Object关系
+3、如何写异步代码  讲解异步代码两个关键点  当前进程空闲 达到触发条件（时间IO、磁盘IO、网络IO、自定义事件）
+4、如何将异步代码转变成同步代码
+5、回调函数callback（同步和异步两种）--处理时间IO
+6、处理磁盘IO(fs.readFile  fs.readFileSync)
+7、处理网络IO(http.get),处理域名(DNS) 如何使用Nodejs将域名(www.qq.com)转换成IP(IPV4 IPV6)
+8、读取静态资源的方式（html jpeg css js）----静态资源管理器
+9、用Node原生处理Get Post  $_GET $_POST
+10、处理单一路由(if  else if  else)  多地址路由(switch case)
+11、把一个文件的代码分离到多个文件去(module.exports  exports)
