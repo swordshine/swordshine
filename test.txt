@@ -47,3 +47,8 @@ cnpm install -g supervisor
 9、用Node原生处理Get Post  $_GET $_POST
 10、处理单一路由(if  else if  else)  多地址路由(switch case)
 11、把一个文件的代码分离到多个文件去(module.exports  exports)
+    exports.键名={}/function   module.exports=[]/{}/function class
+12、入口文件index.js(加载公开模块 静态资源管理器、加载入口路由、加载全局变量、加载全局方法 use\set)
+    -->路由文件routers.js(静态路由、动态路由)-->控制器方法(业务逻辑都要写在controller.js)
+13、项目开发采用github做代码管理，内部项目采用gitlab做代码管理 cvs/svn  --Linux CI/CD jenkis
+14、

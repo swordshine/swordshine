@@ -7,7 +7,8 @@ var timer=setInterval(function(){
         return;
     }
     firecount++;
-    console.log(123);
+    console.log(456);
+    console.log(789);
 },0);
 
 //有return的叫函数  没有return叫过程
