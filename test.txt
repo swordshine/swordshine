@@ -51,4 +51,10 @@ cnpm install -g supervisor
 12、入口文件index.js(加载公开模块 静态资源管理器、加载入口路由、加载全局变量、加载全局方法 use\set)
     -->路由文件routers.js(静态路由、动态路由)-->控制器方法(业务逻辑都要写在controller.js)
 13、项目开发采用github做代码管理，内部项目采用gitlab做代码管理 cvs/svn  --Linux CI/CD jenkis
-14、
+14、写静态资源管理器(静态资源是单独发起进程传输了 需要浏览器单独解码才可以显示)
+以上我们讲的都是面向过程+node原生基础
+--------------------------------
+15、面向对象（ES6～～ES10）、ES5  继承 封装 多态   
+（1）子类要能获取到夫类的成员属性、成员方法（public、protect）  extends  es5:call、apply、callee
+（2）构造函数--子类的构造函数拿到父类的构造函数  php:__constructor  java:super    es5:prototype  nodejs:inherit  
+es5  string\array\function\math--->object   nodejs  fs\http\stream\global--->events
