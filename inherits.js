@@ -19,6 +19,8 @@ stream.on("data",function(data){
     console.log("Received data : "+data);
 });
 
-//zoo lion tiger bear wolf ape chimp snake zebra trip clothes suitcase map car seatbelt dog book 
+//zoo lion tiger bear wolf ape chimp snake zebra trip clothes suitcase map car seatbelt dog boo
+//snake cat fox dog box woodyacat zoo 
 
+//milk cat dog snake box tiger ape chimp fox trip tree red 
 
