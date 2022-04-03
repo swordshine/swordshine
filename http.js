@@ -78,3 +78,6 @@ function dealWithStatic(pathname,realPath,res){
     //3、内存中的数据打成数据包传回浏览器
     res.writeHead(200,{"Content-type":"text/html"});
     res.end(indexPage);*/
+
+
+    //  i am woody snake cereal nine cows hrsre pigs bulls milk cat
