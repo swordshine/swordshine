@@ -58,3 +58,27 @@ cnpm install -g supervisor
 （1）子类要能获取到夫类的成员属性、成员方法（public、protect）  extends  es5:call、apply、callee
 （2）构造函数--子类的构造函数拿到父类的构造函数  php:__constructor  java:super    es5:prototype  nodejs:inherit  
 es5  string\array\function\math--->object   nodejs  fs\http\stream\global--->events
+call、apply、callee---inherits
+16、npm 包管理系统  Linux&Unix Unix BSD（freebsd netbsd openbsd） Linux（debian redhat）
+debian ubuntu  redhat centos fedora 
+windows安装 exe  Linux rpm 缺少各种依赖 gcc.rpm redhat redflag
+debian第一版  apt-get install rar ubuntu centos yum install rar
+OS包管理系统  语言（Python安装很多类库pip）NodeJS npm 
+
+npm install -g cnpm    //global  node安装目录/node_modules
+npm install -g pm2
+npm install forever    //将forever包安装在当前项目下的node_modules
+npm install -g cnpm    //taobao镜像
+headers.tar.gz    //windows zip rar Linux zip tar gz bz2
+cnpm install morgan --save
+npm uninstall forever
+npm ls forever
+17、手动建立自定义包  package  npm/cnpm init
+var Animal=require("./Animal.js");
+var morgan=require("morgan");
+(1)加载morgan.js   (2)morgan/index.js
+cnpm install morgan --save  package.json
+cnpm install morgna --dev   package.json
+
+
+
